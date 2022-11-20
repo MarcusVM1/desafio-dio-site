@@ -13,7 +13,7 @@ export const Container = styled.main`
 `
 
 export const Wrapper = styled.div`
-    max-width: 300px;
+    max-width: 374px;
 `
 
 export const Column = styled.div`
@@ -28,18 +28,30 @@ export const Row = styled.div`
     margin-top: 20px;
 `
 
+export const RowLow = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+`
+
 
 
 export const Title = styled.h2`
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    max-width: 90%;
-    margin-bottom: 20px;
-    line-height: 44px;
+position: absolute;
+width: 388px;
+height: 308px;
+left: 65px;
+top: 141px;
 
-    color: #FFFFFF;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+
+color: #FFFFFF;
 `
 
 export const TitleLogin = styled.p`
@@ -60,6 +72,15 @@ export const SubtitleLogin = styled.p`
     margin-bottom: 35px;
 `
 
+export const Sigin =  styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #23DD7A;
+`
 
 export const EsqueciText  = styled.p`
     font-family: 'Open Sans';
@@ -67,7 +88,6 @@ export const EsqueciText  = styled.p`
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-
     color: #E5E044;
 ` 
 
@@ -77,7 +97,6 @@ export const CriarText =  styled.p`
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-
     color: #23DD7A;
 
     &: hover {
